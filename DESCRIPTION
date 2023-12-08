@@ -1,11 +1,17 @@
 Package: Ruda
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Math functions for learning developing
+Version: 0.0.0.9000
+Authors@R: person("Sergio", "Gonzalez", , "sgonzalezve@unal.edu.co", role = c("aut", "cre"))
+Maintainer: The package maintainer <sgonzalezve@unal.edu.co>
+Description: Convenience functions to make some common tasks in maths
+License: `use_mit_license()`
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr
